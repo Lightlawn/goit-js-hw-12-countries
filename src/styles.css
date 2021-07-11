@@ -1,0 +1,104 @@
+body {
+  background: #343d46;
+}
+
+.container {
+  margin: 100px auto;
+}
+
+.box {
+  margin: 0 auto;
+  width: 400px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.input {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  color: #cccccc;
+  font-size: 24px;
+  font-family: Tahoma;
+}
+
+.input:focus {
+  color: #123456;
+  border: 1px solid #000000;
+}
+
+.query-countries {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.countries-item {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Tahoma;
+}
+
+.card {
+  margin: 0 auto;
+  width: 800px;
+  background-color: bisque;
+  border-color: brown;
+  border-radius: 4px;
+  border: 2px;
+}
+
+.card-title {
+  color: #123456;
+  font-size: 50px;
+  font-family: Tahoma;
+  text-align: center;
+  text-shadow: #343d46;
+  line-height: 1.5;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+}
+
+.card-item {
+  color: #343d46;
+  font-size: 24px;
+  font-family: Tahoma;
+  line-height: 1.5;
+}
+
+.language-item {
+  color: #343d46;
+  font-size: 15px;
+  font-family: Tahoma;
+  line-height: 1.5;
+}
+
+.card-picture {
+  width: 400px;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+}
